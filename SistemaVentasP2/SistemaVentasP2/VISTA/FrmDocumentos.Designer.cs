@@ -141,6 +141,7 @@ namespace SistemaVentasP2.VISTA
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtDocumento);
             this.Name = "FrmDocumentos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmDocumentos";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

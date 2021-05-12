@@ -199,6 +199,7 @@ namespace SistemaVentasP2.VISTA
             this.Controls.Add(this.txtPrecioProducto);
             this.Controls.Add(this.txtProducto);
             this.Name = "FrmProductos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmProductos";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

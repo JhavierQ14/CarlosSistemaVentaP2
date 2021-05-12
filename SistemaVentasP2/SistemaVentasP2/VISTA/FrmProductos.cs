@@ -88,7 +88,7 @@ namespace SistemaVentasP2.VISTA
             String idProducto = dataGridView1.CurrentRow.Cells[0].Value.ToString();
             String nombreProducto = dataGridView1.CurrentRow.Cells[1].Value.ToString();
             String precioProducto = dataGridView1.CurrentRow.Cells[2].Value.ToString();
-            String estadoProducto = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+            String estadoProducto = dataGridView1.CurrentRow.Cells[3].Value.ToString();
 
             txtidProducto.Text = idProducto;
             txtProducto.Text = nombreProducto;

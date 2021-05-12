@@ -37,7 +37,7 @@ namespace SistemaVentasP2.VISTA
             this.label6 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.Buscar = new System.Windows.Forms.Button();
+            this.txtBuscar = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -114,14 +114,14 @@ namespace SistemaVentasP2.VISTA
             this.label5.TabIndex = 28;
             this.label5.Text = "codigo producto";
             // 
-            // Buscar
+            // txtBuscar
             // 
-            this.Buscar.Location = new System.Drawing.Point(527, 150);
-            this.Buscar.Name = "Buscar";
-            this.Buscar.Size = new System.Drawing.Size(92, 25);
-            this.Buscar.TabIndex = 27;
-            this.Buscar.Text = "Buscar";
-            this.Buscar.UseVisualStyleBackColor = true;
+            this.txtBuscar.Location = new System.Drawing.Point(527, 150);
+            this.txtBuscar.Name = "txtBuscar";
+            this.txtBuscar.Size = new System.Drawing.Size(92, 25);
+            this.txtBuscar.TabIndex = 27;
+            this.txtBuscar.Text = "Buscar";
+            this.txtBuscar.UseVisualStyleBackColor = true;
             // 
             // textBox2
             // 
@@ -210,7 +210,7 @@ namespace SistemaVentasP2.VISTA
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.Buscar);
+            this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.dataGridView1);
@@ -221,6 +221,7 @@ namespace SistemaVentasP2.VISTA
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "FrmVentas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmVentas";
             this.Load += new System.EventHandler(this.FrmVentas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -239,7 +240,7 @@ namespace SistemaVentasP2.VISTA
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button Buscar;
+        private System.Windows.Forms.Button txtBuscar;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DataGridView dataGridView1;

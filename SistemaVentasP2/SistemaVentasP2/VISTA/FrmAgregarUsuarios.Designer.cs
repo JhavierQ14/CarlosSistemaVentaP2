@@ -182,6 +182,7 @@ namespace SistemaVentasP2.VISTA
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtEmail);
             this.Name = "FrmAgregarUsuarios";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmAgregarUsuarios";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

@@ -88,7 +88,7 @@ namespace SistemaVentasP2.VISTA
             String idCliente = dataGridView1.CurrentRow.Cells[0].Value.ToString();
             String nombreCliente = dataGridView1.CurrentRow.Cells[1].Value.ToString();
             String DireccionCliente = dataGridView1.CurrentRow.Cells[2].Value.ToString();
-            String dui = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+            String dui = dataGridView1.CurrentRow.Cells[3].Value.ToString();
 
 
             txtIdCliente.Text = idCliente;

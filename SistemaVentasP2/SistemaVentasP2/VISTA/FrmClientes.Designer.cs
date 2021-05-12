@@ -199,6 +199,7 @@ namespace SistemaVentasP2.VISTA
             this.Controls.Add(this.txtDireccionCliente);
             this.Controls.Add(this.txtNombreCliente);
             this.Name = "FrmClientes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmClientes";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
